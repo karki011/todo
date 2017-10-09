@@ -39,8 +39,6 @@ var todoList = {
         //         });
         //     }
 
-
-        // ************************
         // *************second way
 
         this.todos.forEach(function (todo) {
