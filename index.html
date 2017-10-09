@@ -1,1 +1,36 @@
 <!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Todo's</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div>
+        <h1>Todo List</h1>
+        <div>
+            <button onclick="handlers.toggleAll()">Toggle All</button>
+        </div>
+        <div>
+            <button onclick="handlers.addToList()">Add</button>
+            <input id="addTodoTextInput" type="text">
+        </div>
+        <div>
+            <button onclick="handlers.changeTodo()">Change Todo</button>
+            <input type="number" id="changeTodoPositionInput">
+            <input type="text" id="changeTodoTextInput">
+        </div>
+        <div>
+            <button onclick="handlers.toggleCompleted()">ToggleCompleted</button>
+            <input type="number" name="" id="toggleCompletedPositionInput">
+        </div>
+        <ul></ul>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
